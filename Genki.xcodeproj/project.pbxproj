@@ -8,16 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		44EF5F5720E7D61C00AFDD59 /* Genki.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EF5F5520E7D61C00AFDD59 /* Genki.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44EF5F6620E7D64100AFDD59 /* Genki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EF5F5220E7D61C00AFDD59 /* Genki.framework */; };
+		44EF5F6F20E7D71D00AFDD59 /* SubsamplingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F6E20E7D71D00AFDD59 /* SubsamplingSequence.swift */; };
+		44EF5F7220E7D7D500AFDD59 /* SubsamplingSequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F7120E7D7D500AFDD59 /* SubsamplingSequenceTests.swift */; };
+		44EF5F7C20E7DA1300AFDD59 /* Genki_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EF5F7A20E7DA1300AFDD59 /* Genki_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44EF5F8020E7DA1C00AFDD59 /* SubsamplingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F6E20E7D71D00AFDD59 /* SubsamplingSequence.swift */; };
+		44EF5F8320E7E18C00AFDD59 /* Mean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8220E7E18C00AFDD59 /* Mean.swift */; };
+		44EF5F8520E7E19900AFDD59 /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8420E7E19900AFDD59 /* MinMax.swift */; };
+		44EF5F8620E7E23600AFDD59 /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8420E7E19900AFDD59 /* MinMax.swift */; };
+		44EF5F8720E7E23900AFDD59 /* Mean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8220E7E18C00AFDD59 /* Mean.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44EF5F6720E7D64100AFDD59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44EF5F4920E7D61C00AFDD59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44EF5F5120E7D61C00AFDD59;
+			remoteInfo = Genki;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		44EF5F5220E7D61C00AFDD59 /* Genki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EF5F5520E7D61C00AFDD59 /* Genki.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Genki.h; sourceTree = "<group>"; };
 		44EF5F5620E7D61C00AFDD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EF5F6120E7D64100AFDD59 /* GenkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EF5F6520E7D64100AFDD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EF5F6E20E7D71D00AFDD59 /* SubsamplingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsamplingSequence.swift; sourceTree = "<group>"; };
+		44EF5F7120E7D7D500AFDD59 /* SubsamplingSequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsamplingSequenceTests.swift; sourceTree = "<group>"; };
+		44EF5F7820E7DA1200AFDD59 /* Genki_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genki_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EF5F7A20E7DA1300AFDD59 /* Genki_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Genki_iOS.h; sourceTree = "<group>"; };
+		44EF5F7B20E7DA1300AFDD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EF5F8220E7E18C00AFDD59 /* Mean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mean.swift; sourceTree = "<group>"; };
+		44EF5F8420E7E19900AFDD59 /* MinMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMax.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		44EF5F4E20E7D61C00AFDD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EF5F5E20E7D64100AFDD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EF5F6620E7D64100AFDD59 /* Genki.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EF5F7420E7DA1200AFDD59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,7 +73,9 @@
 		44EF5F4820E7D61C00AFDD59 = {
 			isa = PBXGroup;
 			children = (
-				44EF5F5420E7D61C00AFDD59 /* Genki */,
+				44EF5F5420E7D61C00AFDD59 /* Sources */,
+				44EF5F6220E7D64100AFDD59 /* Tests */,
+				44EF5F7920E7DA1300AFDD59 /* Genki-iOS */,
 				44EF5F5320E7D61C00AFDD59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,17 +84,72 @@
 			isa = PBXGroup;
 			children = (
 				44EF5F5220E7D61C00AFDD59 /* Genki.framework */,
+				44EF5F6120E7D64100AFDD59 /* GenkiTests.xctest */,
+				44EF5F7820E7DA1200AFDD59 /* Genki_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44EF5F5420E7D61C00AFDD59 /* Genki */ = {
+		44EF5F5420E7D61C00AFDD59 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				44EF5F6C20E7D70500AFDD59 /* Genki */,
 				44EF5F5520E7D61C00AFDD59 /* Genki.h */,
 				44EF5F5620E7D61C00AFDD59 /* Info.plist */,
 			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		44EF5F6220E7D64100AFDD59 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				44EF5F7020E7D74F00AFDD59 /* Genki */,
+				44EF5F6520E7D64100AFDD59 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		44EF5F6C20E7D70500AFDD59 /* Genki */ = {
+			isa = PBXGroup;
+			children = (
+				44EF5F6D20E7D70D00AFDD59 /* Subsampling */,
+			);
 			path = Genki;
+			sourceTree = "<group>";
+		};
+		44EF5F6D20E7D70D00AFDD59 /* Subsampling */ = {
+			isa = PBXGroup;
+			children = (
+				44EF5F8120E7E15600AFDD59 /* Operations */,
+				44EF5F6E20E7D71D00AFDD59 /* SubsamplingSequence.swift */,
+			);
+			path = Subsampling;
+			sourceTree = "<group>";
+		};
+		44EF5F7020E7D74F00AFDD59 /* Genki */ = {
+			isa = PBXGroup;
+			children = (
+				44EF5F7120E7D7D500AFDD59 /* SubsamplingSequenceTests.swift */,
+			);
+			path = Genki;
+			sourceTree = "<group>";
+		};
+		44EF5F7920E7DA1300AFDD59 /* Genki-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				44EF5F7A20E7DA1300AFDD59 /* Genki_iOS.h */,
+				44EF5F7B20E7DA1300AFDD59 /* Info.plist */,
+			);
+			path = "Genki-iOS";
+			sourceTree = "<group>";
+		};
+		44EF5F8120E7E15600AFDD59 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				44EF5F8220E7E18C00AFDD59 /* Mean.swift */,
+				44EF5F8420E7E19900AFDD59 /* MinMax.swift */,
+			);
+			path = Operations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				44EF5F5720E7D61C00AFDD59 /* Genki.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EF5F7520E7DA1200AFDD59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EF5F7C20E7DA1300AFDD59 /* Genki_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,16 +192,60 @@
 			productReference = 44EF5F5220E7D61C00AFDD59 /* Genki.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		44EF5F6020E7D64100AFDD59 /* GenkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44EF5F6920E7D64100AFDD59 /* Build configuration list for PBXNativeTarget "GenkiTests" */;
+			buildPhases = (
+				44EF5F5D20E7D64100AFDD59 /* Sources */,
+				44EF5F5E20E7D64100AFDD59 /* Frameworks */,
+				44EF5F5F20E7D64100AFDD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44EF5F6820E7D64100AFDD59 /* PBXTargetDependency */,
+			);
+			name = GenkiTests;
+			productName = GenkiTests;
+			productReference = 44EF5F6120E7D64100AFDD59 /* GenkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44EF5F7720E7DA1200AFDD59 /* Genki-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44EF5F7D20E7DA1300AFDD59 /* Build configuration list for PBXNativeTarget "Genki-iOS" */;
+			buildPhases = (
+				44EF5F7320E7DA1200AFDD59 /* Sources */,
+				44EF5F7420E7DA1200AFDD59 /* Frameworks */,
+				44EF5F7520E7DA1200AFDD59 /* Headers */,
+				44EF5F7620E7DA1200AFDD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Genki-iOS";
+			productName = "Genki-iOS";
+			productReference = 44EF5F7820E7DA1200AFDD59 /* Genki_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		44EF5F4920E7D61C00AFDD59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Kineticfactory;
 				TargetAttributes = {
 					44EF5F5120E7D61C00AFDD59 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+					44EF5F6020E7D64100AFDD59 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					44EF5F7720E7DA1200AFDD59 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
@@ -111,12 +263,28 @@
 			projectRoot = "";
 			targets = (
 				44EF5F5120E7D61C00AFDD59 /* Genki */,
+				44EF5F6020E7D64100AFDD59 /* GenkiTests */,
+				44EF5F7720E7DA1200AFDD59 /* Genki-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		44EF5F5020E7D61C00AFDD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EF5F5F20E7D64100AFDD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EF5F7620E7DA1200AFDD59 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,10 +298,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EF5F8320E7E18C00AFDD59 /* Mean.swift in Sources */,
+				44EF5F8520E7E19900AFDD59 /* MinMax.swift in Sources */,
+				44EF5F6F20E7D71D00AFDD59 /* SubsamplingSequence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EF5F5D20E7D64100AFDD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EF5F7220E7D7D500AFDD59 /* SubsamplingSequenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EF5F7320E7DA1200AFDD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EF5F8020E7DA1C00AFDD59 /* SubsamplingSequence.swift in Sources */,
+				44EF5F8720E7E23900AFDD59 /* Mean.swift in Sources */,
+				44EF5F8620E7E23600AFDD59 /* MinMax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44EF5F6820E7D64100AFDD59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44EF5F5120E7D61C00AFDD59 /* Genki */;
+			targetProxy = 44EF5F6720E7D64100AFDD59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		44EF5F5820E7D61C00AFDD59 /* Debug */ = {
@@ -258,6 +455,7 @@
 		44EF5F5B20E7D61C00AFDD59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -267,7 +465,35 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Genki/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.Genki;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		44EF5F5C20E7D61C00AFDD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RGZSVAB4M3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -279,31 +505,98 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
-			name = Debug;
+			name = Release;
 		};
-		44EF5F5C20E7D61C00AFDD59 /* Release */ = {
+		44EF5F6A20E7D64100AFDD59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RGZSVAB4M3;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.GenkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		44EF5F6B20E7D64100AFDD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RGZSVAB4M3;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.GenkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		44EF5F7E20E7DA1300AFDD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = RGZSVAB4M3;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Genki/Info.plist;
+				INFOPLIST_FILE = "Genki-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.Genki;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kineticfactory.Genki-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44EF5F7F20E7DA1300AFDD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RGZSVAB4M3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Genki-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kineticfactory.Genki-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -324,6 +617,24 @@
 			buildConfigurations = (
 				44EF5F5B20E7D61C00AFDD59 /* Debug */,
 				44EF5F5C20E7D61C00AFDD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44EF5F6920E7D64100AFDD59 /* Build configuration list for PBXNativeTarget "GenkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EF5F6A20E7D64100AFDD59 /* Debug */,
+				44EF5F6B20E7D64100AFDD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44EF5F7D20E7DA1300AFDD59 /* Build configuration list for PBXNativeTarget "Genki-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EF5F7E20E7DA1300AFDD59 /* Debug */,
+				44EF5F7F20E7DA1300AFDD59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
