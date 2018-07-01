@@ -10,8 +10,17 @@ import Foundation
 public protocol SubsamplingBucket {
     associatedtype Element
     
+    /** Called to initialise the bucket with its first value. */
     init(_ initial: Element)
+    /** Called to add a subsequent bucket */
     mutating func add(_ value: Element)
+    /** Called after adding all values; any code to finalise the result value should be here */
+    mutating func finalize()
+}
+
+extension SubsamplingBucket {
+    // default implementation
+    public mutating func finalize() { }
 }
 
 public struct SubsamplingSequence<S: Sequence, B>: Sequence where B.Element == S.Element, B: SubsamplingBucket {
@@ -39,6 +48,7 @@ public struct SubsamplingSequence<S: Sequence, B>: Sequence where B.Element == S
                 guard let v = source.next() else { break }
                 bucket.add(v)
             }
+            bucket.finalize()
             return bucket
         }
     }
