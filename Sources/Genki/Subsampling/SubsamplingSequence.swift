@@ -43,7 +43,7 @@ public struct SubsamplingSequence<S: Sequence, B>: Sequence where B.Element == S
         }
     }
     
-    init(source: S, span: Int) {
+    public init(source: S, span: Int) {
         self.source = source
         self.span = span
     }
