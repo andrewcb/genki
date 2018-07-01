@@ -11,12 +11,20 @@
 		44EF5F6620E7D64100AFDD59 /* Genki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EF5F5220E7D61C00AFDD59 /* Genki.framework */; };
 		44EF5F6F20E7D71D00AFDD59 /* SubsamplingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F6E20E7D71D00AFDD59 /* SubsamplingSequence.swift */; };
 		44EF5F7220E7D7D500AFDD59 /* SubsamplingSequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F7120E7D7D500AFDD59 /* SubsamplingSequenceTests.swift */; };
-		44EF5F7C20E7DA1300AFDD59 /* Genki_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EF5F7A20E7DA1300AFDD59 /* Genki_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44EF5F8020E7DA1C00AFDD59 /* SubsamplingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F6E20E7D71D00AFDD59 /* SubsamplingSequence.swift */; };
 		44EF5F8320E7E18C00AFDD59 /* Mean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8220E7E18C00AFDD59 /* Mean.swift */; };
 		44EF5F8520E7E19900AFDD59 /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8420E7E19900AFDD59 /* MinMax.swift */; };
 		44EF5F8620E7E23600AFDD59 /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8420E7E19900AFDD59 /* MinMax.swift */; };
 		44EF5F8720E7E23900AFDD59 /* Mean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8220E7E18C00AFDD59 /* Mean.swift */; };
+		44F4196D20E8503200040FBA /* SubsamplingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F6E20E7D71D00AFDD59 /* SubsamplingSequence.swift */; };
+		44F4196E20E8503300040FBA /* SubsamplingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F6E20E7D71D00AFDD59 /* SubsamplingSequence.swift */; };
+		44F4196F20E8503600040FBA /* Mean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8220E7E18C00AFDD59 /* Mean.swift */; };
+		44F4197020E8503700040FBA /* Mean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8220E7E18C00AFDD59 /* Mean.swift */; };
+		44F4197120E8503C00040FBA /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8420E7E19900AFDD59 /* MinMax.swift */; };
+		44F4197220E8503D00040FBA /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF5F8420E7E19900AFDD59 /* MinMax.swift */; };
+		44F4197320E852D300040FBA /* Genki.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EF5F5520E7D61C00AFDD59 /* Genki.h */; };
+		44F4197420E852D400040FBA /* Genki.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EF5F5520E7D61C00AFDD59 /* Genki.h */; };
+		44F4197520E852D500040FBA /* Genki.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EF5F5520E7D61C00AFDD59 /* Genki.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +46,10 @@
 		44EF5F6E20E7D71D00AFDD59 /* SubsamplingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsamplingSequence.swift; sourceTree = "<group>"; };
 		44EF5F7120E7D7D500AFDD59 /* SubsamplingSequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsamplingSequenceTests.swift; sourceTree = "<group>"; };
 		44EF5F7820E7DA1200AFDD59 /* Genki_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genki_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44EF5F7A20E7DA1300AFDD59 /* Genki_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Genki_iOS.h; sourceTree = "<group>"; };
-		44EF5F7B20E7DA1300AFDD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44EF5F8220E7E18C00AFDD59 /* Mean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mean.swift; sourceTree = "<group>"; };
 		44EF5F8420E7E19900AFDD59 /* MinMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMax.swift; sourceTree = "<group>"; };
+		44F4195820E8500C00040FBA /* Genki_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genki_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F4196520E8502A00040FBA /* Genki_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genki_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		44F4195420E8500C00040FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F4196120E8502A00040FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,7 +97,6 @@
 			children = (
 				44EF5F5420E7D61C00AFDD59 /* Sources */,
 				44EF5F6220E7D64100AFDD59 /* Tests */,
-				44EF5F7920E7DA1300AFDD59 /* Genki-iOS */,
 				44EF5F5320E7D61C00AFDD59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +107,8 @@
 				44EF5F5220E7D61C00AFDD59 /* Genki.framework */,
 				44EF5F6120E7D64100AFDD59 /* GenkiTests.xctest */,
 				44EF5F7820E7DA1200AFDD59 /* Genki_iOS.framework */,
+				44F4195820E8500C00040FBA /* Genki_tvOS.framework */,
+				44F4196520E8502A00040FBA /* Genki_watchOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,15 +157,6 @@
 			path = Genki;
 			sourceTree = "<group>";
 		};
-		44EF5F7920E7DA1300AFDD59 /* Genki-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				44EF5F7A20E7DA1300AFDD59 /* Genki_iOS.h */,
-				44EF5F7B20E7DA1300AFDD59 /* Info.plist */,
-			);
-			path = "Genki-iOS";
-			sourceTree = "<group>";
-		};
 		44EF5F8120E7E15600AFDD59 /* Operations */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +181,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44EF5F7C20E7DA1300AFDD59 /* Genki_iOS.h in Headers */,
+				44F4197320E852D300040FBA /* Genki.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F4195520E8500C00040FBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F4197420E852D400040FBA /* Genki.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F4196220E8502A00040FBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F4197520E852D500040FBA /* Genki.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +258,42 @@
 			productReference = 44EF5F7820E7DA1200AFDD59 /* Genki_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		44F4195720E8500C00040FBA /* Genki_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F4195F20E8500C00040FBA /* Build configuration list for PBXNativeTarget "Genki_tvOS" */;
+			buildPhases = (
+				44F4195320E8500C00040FBA /* Sources */,
+				44F4195420E8500C00040FBA /* Frameworks */,
+				44F4195520E8500C00040FBA /* Headers */,
+				44F4195620E8500C00040FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genki_tvOS;
+			productName = Genki_tvOS;
+			productReference = 44F4195820E8500C00040FBA /* Genki_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44F4196420E8502A00040FBA /* Genki_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F4196A20E8502A00040FBA /* Build configuration list for PBXNativeTarget "Genki_watchOS" */;
+			buildPhases = (
+				44F4196020E8502A00040FBA /* Sources */,
+				44F4196120E8502A00040FBA /* Frameworks */,
+				44F4196220E8502A00040FBA /* Headers */,
+				44F4196320E8502A00040FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genki_watchOS;
+			productName = Genki_watchOS;
+			productReference = 44F4196520E8502A00040FBA /* Genki_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -248,6 +314,12 @@
 					44EF5F7720E7DA1200AFDD59 = {
 						CreatedOnToolsVersion = 9.4;
 					};
+					44F4195720E8500C00040FBA = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					44F4196420E8502A00040FBA = {
+						CreatedOnToolsVersion = 9.4;
+					};
 				};
 			};
 			buildConfigurationList = 44EF5F4C20E7D61C00AFDD59 /* Build configuration list for PBXProject "Genki" */;
@@ -265,6 +337,8 @@
 				44EF5F5120E7D61C00AFDD59 /* Genki */,
 				44EF5F6020E7D64100AFDD59 /* GenkiTests */,
 				44EF5F7720E7DA1200AFDD59 /* Genki-iOS */,
+				44F4195720E8500C00040FBA /* Genki_tvOS */,
+				44F4196420E8502A00040FBA /* Genki_watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -285,6 +359,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		44EF5F7620E7DA1200AFDD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F4195620E8500C00040FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F4196320E8502A00040FBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,6 +407,26 @@
 				44EF5F8020E7DA1C00AFDD59 /* SubsamplingSequence.swift in Sources */,
 				44EF5F8720E7E23900AFDD59 /* Mean.swift in Sources */,
 				44EF5F8620E7E23600AFDD59 /* MinMax.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F4195320E8500C00040FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F4196F20E8503600040FBA /* Mean.swift in Sources */,
+				44F4197120E8503C00040FBA /* MinMax.swift in Sources */,
+				44F4196D20E8503200040FBA /* SubsamplingSequence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F4196020E8502A00040FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F4197020E8503700040FBA /* Mean.swift in Sources */,
+				44F4197220E8503D00040FBA /* MinMax.swift in Sources */,
+				44F4196E20E8503300040FBA /* SubsamplingSequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +665,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Genki-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -565,7 +673,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kineticfactory.Genki-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.Genki;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -584,7 +692,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Genki-iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -592,13 +700,125 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kineticfactory.Genki-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.Genki;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44F4195D20E8500C00040FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RGZSVAB4M3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.Genki;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		44F4195E20E8500C00040FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RGZSVAB4M3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.Genki;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44F4196B20E8502A00040FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RGZSVAB4M3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.Genki;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		44F4196C20E8502A00040FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RGZSVAB4M3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kineticfactory.Genki;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Release;
 		};
@@ -637,6 +857,24 @@
 			buildConfigurations = (
 				44EF5F7E20E7DA1300AFDD59 /* Debug */,
 				44EF5F7F20E7DA1300AFDD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F4195F20E8500C00040FBA /* Build configuration list for PBXNativeTarget "Genki_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F4195D20E8500C00040FBA /* Debug */,
+				44F4195E20E8500C00040FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F4196A20E8502A00040FBA /* Build configuration list for PBXNativeTarget "Genki_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F4196B20E8502A00040FBA /* Debug */,
+				44F4196C20E8502A00040FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

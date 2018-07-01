@@ -8,16 +8,16 @@
 
 import Foundation
 
-struct MinMaxBucket<Element>: SubsamplingBucket where Element: Comparable {
-    var min: Element
-    var max: Element
+public struct MinMaxBucket<Element>: SubsamplingBucket where Element: Comparable {
+    public var min: Element
+    public var max: Element
     
-    init(_ initial: Element) {
+    public init(_ initial: Element) {
         self.min = initial
         self.max = initial
     }
     
-    mutating func add(_ value: Element) {
+    public mutating func add(_ value: Element) {
         if value<self.min { self.min = value }
         if value>self.max { self.max = value }
     }

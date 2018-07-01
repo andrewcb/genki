@@ -7,22 +7,22 @@
 
 import Foundation
 
-protocol SubsamplingBucket {
+public protocol SubsamplingBucket {
     associatedtype Element
     
     init(_ initial: Element)
     mutating func add(_ value: Element)
 }
 
-struct SubsamplingSequence<S: Sequence, B>: Sequence where B.Element == S.Element, B: SubsamplingBucket {
+public struct SubsamplingSequence<S: Sequence, B>: Sequence where B.Element == S.Element, B: SubsamplingBucket {
     
-    typealias Element = B
+    public typealias Element = B
     
     var source: S
     let span: Int
     
-    struct Iterator: IteratorProtocol {
-        typealias Element = B
+    public struct Iterator: IteratorProtocol {
+        public typealias Element = B
         
         var source: S.Iterator
         let span: Int
@@ -32,7 +32,7 @@ struct SubsamplingSequence<S: Sequence, B>: Sequence where B.Element == S.Elemen
             self.span = span
         }
         
-        mutating func next() -> B? {
+        public mutating func next() -> B? {
             guard let first = source.next() else { return nil }
             var bucket = B(first)
             for _ in 1..<self.span {
@@ -48,7 +48,7 @@ struct SubsamplingSequence<S: Sequence, B>: Sequence where B.Element == S.Elemen
         self.span = span
     }
     
-    func makeIterator() -> SubsamplingSequence<S, B>.Iterator {
+    public func makeIterator() -> SubsamplingSequence<S, B>.Iterator {
         return Iterator(source: self.source.makeIterator(), span: self.span)
     }
 }
